@@ -1,59 +1,56 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Awesome Books
 
-> One paragraph statement about the project.
+> In this project, we built a basic website that allows users to add/remove books from a list. Only Vanilla JavaScript objects and arrays. The elements are dynamically modified with DOM and basic events.
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
+- HTML
+- CSS
+- Javacript ES6
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+### Requirements
 
+- A github account connected to your PC
+- VSCode or another similar IDE
+- Live Server or another similar runtime extension
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
 
 ### Setup
 
+Create a new folder/directory for the project
+
+
 ### Install
 
-### Usage
-
-### Run tests
-
-### Deployment
+- open your terminal on your OS
+- go to the desired folder/directory that you want to have the project in
+- `git clone https://github.com/fernandorpm/awesome-books.git`
+- `cd awesome-books`
+- right click the `index.html` file and click on `Open with live server`
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Kingsley McSimon O**
 
 - GitHub: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-👤 **Author2**
+👤 **Fernando R P Marques**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@fernandorpm](https://github.com/fernandorpm)
+- Twitter: [@rpm_fernando](https://twitter.com/rpm_fernando)
+- LinkedIn: [Fernando R P Marques](https://linkedin.com/in/fernandorpm)
 
 ## 🤝 Contributing
 
@@ -64,12 +61,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 

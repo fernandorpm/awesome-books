@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awesome Books</title>
+</head>
+
+<body>
+  <h1>Awesome Books</h1>
+
+  <div id="bookshelf">
+    <template class="book">
+      <p>Book Title</p>
+      <p>Book Author</p>
+      <button>Remove</button>
+      <hr>
+    </template>
+  </div>
+
+  <br>
+  <form action="submit" onsubmit="return AddBook()" id="AddBook">
+    <input type="text" name="title" placeholder="Title of the book...">
+    <br><br>
+    <input type="text" name="author" placeholder="Author of the book...">
+    <br><br>
+    <button type="submit">Add</button>
+  </form>
+  
+  <script src="main.js"></script>
+</body>
+
+</html>
