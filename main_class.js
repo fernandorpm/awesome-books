@@ -60,7 +60,9 @@ class Library {
   }
 
   reloadLibrary() {
-    this.library = (JSON.parse(localStorage.library));
+    if (localStorage.getItem('library') !== null) {
+      this.library = (JSON.parse(localStorage.library));
+    }
 
     bookshelf.innerHTML = '';
     bookshelf.appendChild(temp);
