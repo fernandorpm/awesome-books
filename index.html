@@ -4,28 +4,39 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Awesome Books</title>
 </head>
 
 <body>
-  <h1>Awesome Books</h1>
+  <div class="container">
+    <h1>Awesome Books</h1>
 
-  <div id="bookshelf">
-    <template class="book">
-      <p>Book Title</p>
-      <p>Book Author</p>
-      <button>Remove</button>
-      <hr>
-    </template>
+    <div id="bookshelf">
+      <template class="book">
+        <div class="real-book">
+          <div>
+            "<p>Book Title</p>"
+            by
+            <p>Book Author</p>
+          </div>
+          <button>Remove</button>
+        </div>
+      </template>
+    </div>
+
+    <br>
+    <div class="divisor"></div>
+
+    <div class="form">
+      <h3>Add a new book</h3>
+      <input type="text" id="title" placeholder="Title of the book...">
+      <br><br>
+      <input type="text" id="author" placeholder="Author of the book...">
+      <br><br>
+      <button id="add-book">Add</button>
+    </div>
   </div>
-
-  <br>
-
-  <input type="text" id="title" placeholder="Title of the book...">
-  <br><br>
-  <input type="text" id="author" placeholder="Author of the book...">
-  <br><br>
-  <button id="add-book">Add</button>
   
   <script src="main_class.js"></script>
 </body>
