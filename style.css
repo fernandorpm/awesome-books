@@ -1,1 +1,65 @@
-/* Git Force */
+.container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+button {
+  height: 30px;
+  padding: 0 20px;
+  border: 0;
+  cursor: pointer;
+  border-radius: 4px;
+  background: #e8e8ec;
+}
+
+button:hover {
+  opacity: 0.6;
+}
+
+#bookshelf {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+}
+
+.real-book {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+#bookshelf > div:last-child {
+  border: 0;
+}
+
+.real-book p {
+  display: inline-block;
+  margin: 0;
+}
+
+.form {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.form input {
+  width: calc(100% - 18px);
+}
+
+.form button {
+  width: 70px;
+  margin-left: calc(100% - 70px);
+}
+
+.divisor {
+  border-bottom: 1px solid lightgray;
+  width: 200px;
+  margin: 0 auto;
+}
