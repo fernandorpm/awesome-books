@@ -10,7 +10,8 @@ const indexBook = document.querySelector('.index-book');
 const addBook = document.querySelector('.add-book');
 const contact = document.querySelector('.contact');
 
-let dt = luxon.DateTime.now().toLocaleString(luxon.DateTime.DATETIME_MED);
+// eslint-disable-next-line no-undef
+const dt = luxon.DateTime.now().toLocaleString(luxon.DateTime.DATETIME_MED);
 
 document.querySelector('#datetime').innerHTML = dt;
 
@@ -104,6 +105,5 @@ function GoToContact() {
 }
 
 document.querySelector('#go-to-index').addEventListener('click', () => GoToIndex());
-document.querySelector('#go-to-add').addEventListener('click', () =>  GoToAdd());
+document.querySelector('#go-to-add').addEventListener('click', () => GoToAdd());
 document.querySelector('#go-to-contact').addEventListener('click', () => GoToContact());
-
