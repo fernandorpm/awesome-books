@@ -34,12 +34,12 @@ button {
   background: #e8e8ec;
 }
 
-button:hover {
-  opacity: 0.6;
-}
-
 nav button {
   background: none;
+}
+
+button:hover {
+  opacity: 0.6;
 }
 
 .container {
