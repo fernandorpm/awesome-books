@@ -9,8 +9,22 @@
 </head>
 
 <body>
-  <div class="container">
-    <h1>Awesome Books</h1>
+  <header>
+    <nav>
+      <h2>Awesome Books</h2>
+      <div>
+        <ul>
+          <li><button id="go-to-index" type="button">List</button></li>
+          <li><button id="go-to-add" type="button">Add new</button></li>
+          <li><button id="go-to-contact" type="button">Contact</button></li>
+        </ul>
+      </div>
+    </nav>
+    <p id="datetime">DateTime</p>
+  </header>
+
+  <div class="container index-book">
+    <h1>All Awesome Books</h1>
 
     <div id="bookshelf">
       <template class="book">
@@ -24,20 +38,34 @@
         </div>
       </template>
     </div>
+  </div>
 
-    <br>
-    <div class="divisor"></div>
-
+  <div class="container add-book">
     <div class="form">
-      <h3>Add a new book</h3>
+      <h1>Add a new book</h1>
       <input type="text" id="title" placeholder="Title of the book...">
       <br><br>
       <input type="text" id="author" placeholder="Author of the book...">
       <br><br>
-      <button id="add-book">Add</button>
+      <button id="add-book" type="button">Add</button>
     </div>
   </div>
+
+  <div class="container contact">
+    <h1>Contact Information</h1>
+    <h3>Do you have any questions or you just want to say "Hello"?<br>You can reach out to us!</h3>
+    <ul>
+      <li>Our e-mail: frpm1001@gmail.com</li>
+      <li>Our phone-number: (12) 98114-5270</li>
+      <li>Our address: Streetname 22, City, Country</li>
+    </ul>
+  </div>
+
+  <footer>
+    Copyright: Fernando
+  </footer>
   
+  <script src="https://cdn.jsdelivr.net/npm/luxon@1.27.0/build/global/luxon.min.js"></script>
   <script src="main_class.js"></script>
 </body>
 

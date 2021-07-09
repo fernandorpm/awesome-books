@@ -1,12 +1,28 @@
-.container {
-  padding: 20px;
-  max-width: 600px;
-  margin: 0 auto;
+body {
+  margin: 0;
 }
 
-h1,
-h3 {
-  text-align: center;
+#datetime {
+  text-align: right;
+  padding: 0 50px;
+}
+
+footer,
+nav {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  list-style-type: none;
 }
 
 button {
@@ -18,8 +34,23 @@ button {
   background: #e8e8ec;
 }
 
+nav button {
+  background: none;
+}
+
 button:hover {
   opacity: 0.6;
+}
+
+.container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1,
+h3 {
+  text-align: center;
 }
 
 #bookshelf {
@@ -58,8 +89,19 @@ button:hover {
   margin-left: calc(100% - 70px);
 }
 
-.divisor {
-  border-bottom: 1px solid lightgray;
-  width: 200px;
-  margin: 0 auto;
+.add-book {
+  display: none;
+}
+
+.contact {
+  display: none;
+}
+
+.contact h3 {
+  text-align: left;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
 }
